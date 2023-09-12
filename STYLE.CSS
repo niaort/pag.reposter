@@ -1,0 +1,99 @@
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive, sans-serif;
+    font-size: 30px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #b16f39c4;
+    color: #0e0101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header img {
+    max-width: 30%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: hwb(182 10% 11%);
+}
+
+
+/* Estilos de la portada con fondo en movimiento */
+.portada {
+    height: 80vh;
+    background-image: url('istockphoto-1199670368-612x612.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: hsl(275, 100%, 4%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos de los títulos */
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    color: #3a063a;
+}
+
+/* Estilos de la sección de productos */
+.productos {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.producto {
+    margin-bottom: 10px;
+}
+img {
+    width: 500px;
+    height: auto; 
+}
+
+
+/* Estilos de las secciones de información, redes sociales y contacto */
+.informacion, .redes-sociales, .contacto {
+    padding: 40px 0;
+    text-align: center;
+    color: #3a063a;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    padding: 40px;
+    text-align: center;
+    background-color: hsl(0, 64%, 76%); /* Color de fondo de la sección de contacto */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: hsl(39, 57%, 54%);
+    text-align: center;
+    padding: 20px;
+}
